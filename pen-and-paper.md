@@ -61,6 +61,13 @@ expected to be remain so for the foreseeable future.
 
 ## Example
 
+What you need:
+ * privacy (cover your webcams, don't voice any of the process, etc)
+ * a working sheet of paper that you will burn when finished
+ * 3 sheets of paper that will hold the result
+ * optionally: 3 colored pens or highlighters besides your normal
+   blue pen
+
 Suppose that your BIP-39 seed is the following sequence of 24 words:
 
      1	speak
@@ -89,15 +96,16 @@ Suppose that your BIP-39 seed is the following sequence of 24 words:
     24	decorate
 
 Now, put your 24 numbered pieces of paper into a hat and pull them out 
-in a random order. Write down the sequence and its ordinal numbers:
+in a random order. Write down the sequence, i.e. its ordinal numbers,
+on your working paper:
 
 ```
 index:   1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
 random: 16,21,12, 7,13,10,23,15,18,11,22, 1,19, 4, 6, 9,14, 2,20, 8, 5,17, 3,24
 ```
 
-On three clean sheets of paper, write down the words corresponding to 
-the first sixteen, the last sixteen and the first and the last eight 
+On the three clean sheets of paper, write down the words corresponding to 
+the first sixteen, the last sixteen, and the first and the last eight 
 numbers, respectively, together with their numbers in the new ordering 
 as follows:
 
@@ -159,7 +167,7 @@ as follows:
     24  decorate
 
 Now, put the numbered pieces of paper back into the hat and draw them out 
-in a random order. Write down the sequence (with the ordinals) to
+again in a random order. Write down the sequence (with the ordinals) to
 **sheet one**. For example:
 ```
 index:   1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
