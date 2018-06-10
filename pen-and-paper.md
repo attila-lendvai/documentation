@@ -92,8 +92,8 @@ Now, put your 24 numbered pieces of paper into a hat and pull them out
 in a random order. Write down the sequence and its ordinal numbers:
 
 ```
-16,21,12, 7,13,10,23,15,18,11,22, 1,19, 4, 6, 9,14, 2,20, 8, 5,17, 3,24
- 1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
+index:   1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
+random: 16,21,12, 7,13,10,23,15,18,11,22, 1,19, 4, 6, 9,14, 2,20, 8, 5,17, 3,24
 ```
 
 On three clean sheets of paper, write down the words corresponding to 
@@ -162,19 +162,19 @@ Now, put the numbered pieces of paper back into the hat and draw them out
 in a random order. Write down the sequence (with the ordinals) to
 **sheet one**. For example:
 ```
-15,12, 9,11, 3,23,10,20,21,14,19, 5, 7,16,22,13, 8, 1, 2,17, 6,24,18, 4
- 1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
+index:   1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
+random: 15,12, 9,11, 3,23,10,20,21,14,19, 5, 7,16,22,13, 8, 1, 2,17, 6,24,18, 4
 ```
 Then do another draw, and write down the sequence on **sheet one** again.
 For example:
 ```
-24,19,10,18,11, 5,15,16, 3, 1,12, 6, 7,14,17,23, 4, 8,21,20, 2, 9,22,13
- 1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
+index:   1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
+random: 24,19,10,18,11, 5,15,16, 3, 1,12, 6, 7,14,17,23, 4, 8,21,20, 2, 9,22,13
 ```
 Do a third draw, and write down the sequence, this time on **sheet two**:
 ```
- 4, 5,21,14, 7, 6,18,16,15,19,24,22,12,13, 9, 1,20,17, 2, 3, 8,10,11,23
- 1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
+index:   1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
+random:  4, 5,21,14, 7, 6,18,16,15,19,24,22,12,13, 9, 1,20,17, 2, 3, 8,10,11,23
 ```
 
 Now, write the *complementary* sequence of the *first* sequence on 
@@ -187,24 +187,24 @@ original shuffle). Therefore, write 16 in position 15 of the
 but it should go to 21. Thus, write 21 in position 12. And so on. 
 The second sequence on **sheet two** thus becomes:
 ```
- 2,20,13,24, 1, 5,19,14,12,23, 7,21, 9,11,16, 4, 8, 3,22,15,18, 6,10,17
- 1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
+index:  1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
+        2,20,13,24, 1, 5,19,14,12,23, 7,21, 9,11,16, 4, 8, 3,22,15,18, 6,10,17
 ```
 
 Using the exact same algorithm, write the *complementary* sequence of
 the *second* sequence on **sheet one** to **sheet three**:
 
 ```
-11, 5,18,14,10, 1,19, 2,17,12,13,22,24, 4,23,15, 6, 7,21, 8,20, 3, 9,16
- 1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
+index:  1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
+       11, 5,18,14,10, 1,19, 2,17,12,13,22,24, 4,23,15, 6, 7,21, 8,20, 3, 9,16
 ```
 
 Finally, using this algorithm again, write the *complementary* sequence 
 of the *first* sequence of **sheet two** to **sheet three**:
 
 ```
- 9,20, 8,16,21,10,13, 5, 6,17, 3,19, 4, 7,18,15, 2,23,11,14,12, 1,24,22
- 1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
+index:  1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
+        9,20, 8,16,21,10,13, 5, 6,17, 3,19, 4, 7,18,15, 2,23,11,14,12, 1,24,22
 ```
 
 To make restoring easier for yourself, you can mark the corresponding 
@@ -226,13 +226,13 @@ Suppose, you need to restore your seed and you can access envelopes **one**
 and **three**. The corresponding sequences are the *second* sequence of 
 **sheet one** and the *first* sequence of **sheet three**. In our example:
 ```
-24,19,10,18,11, 5,15,16, 3, 1,12, 6, 7,14,17,23, 4, 8,21,20, 2, 9,22,13
- 1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
+index:  1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
+       24,19,10,18,11, 5,15,16, 3, 1,12, 6, 7,14,17,23, 4, 8,21,20, 2, 9,22,13
 ```
 and
 ```
-11, 5,18,14,10, 1,19, 2,17,12,13,22,24, 4,23,15, 6, 7,21, 8,20, 3, 9,16
- 1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
+index:  1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
+       11, 5,18,14,10, 1,19, 2,17,12,13,22,24, 4,23,15, 6, 7,21, 8,20, 3, 9,16
 ```
 
 We have all the 24 words with ordinal numbers in the shuffled sequence, and 
